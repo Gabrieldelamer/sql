@@ -1,0 +1,1 @@
+SELECT * FROM department_contracts_avg WHERE sum = ( SELECT MAX(sum) FROM department_contracts_avg);
